@@ -1,0 +1,34 @@
+.middle {
+  width: 100%;
+  text-align: center;
+  padding: 20px 0;
+}
+
+.middle > div {
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.middle-column {
+  width: 230px;
+  height: 280px;
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  box-shadow: 0 0 10px rgb(0, 0, 0, .7);
+  margin: 10px;
+  align-items: center;
+}
+
+.middle-column > img {
+  width: 180px;
+  margin: 10px 0;
+}
+
+.middle-column h2, .middle-column p {
+  margin: 0;
+}
